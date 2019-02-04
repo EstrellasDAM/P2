@@ -62,7 +62,7 @@ public class Championship {
 
     private static void cancelSport() throws IOException {
         if (manager.isEmptySports()) {
-            System.out.println("All sports have been canceled.");
+            System.out.println("Mano dura, nenazasX");
         } else {
             String nameSport = askSport();
             Sport sport = manager.getSportByName(nameSport);
