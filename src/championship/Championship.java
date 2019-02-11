@@ -25,7 +25,7 @@ public class Championship {
         try {
             manager = new Manager();
             manager.init();
-            int option = -1;
+            int option = -333;
             do {
                 showMenu();
                 option = InputAsker.askInt("Choose an option");
