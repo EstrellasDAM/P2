@@ -25,7 +25,11 @@ public class Championship {
         try {
             manager = new Manager();
             manager.init();
+<<<<<<< HEAD
             int option = -333;
+=======
+            int option;
+>>>>>>> 4f7be9ea526ff8ad763f5f6c0aaf4fb3edd88479
             do {
                 showMenu();
                 option = InputAsker.askInt("Choose an option");
@@ -62,7 +66,7 @@ public class Championship {
 
     private static void cancelSport() throws IOException {
         if (manager.isEmptySports()) {
-            System.out.println("All sports have been canceled.");
+            System.out.println("Cancel.");
         } else {
             String nameSport = askSport();
             Sport sport = manager.getSportByName(nameSport);
