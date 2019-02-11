@@ -19,7 +19,7 @@ public class Championship {
     private static Manager manager;
 
     /**
-     * @param args the command line arguments
+     * @param args e command line arguments asdfasdfasdfasdfasgsdfgasdAAAAAAAAAAAAAAAAAAA
      */
     public static void main(String[] args) {
         try {
